@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: The NinjaKitten Document Archive
 subtitle:
 description:
 keywords:
-author: John Doe
-language:
+author: The NinjaKitten
+language: en
 timezone:
 
 # URL
@@ -40,6 +40,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
+  hljs: true # Add this line!
   line_number: true
   auto_detect: false
   tab_replace:
@@ -73,9 +74,25 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+theme: aria
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# Hexo local search
+search:
+  path: search.xml
+  field: all
+
+# Hexo RSS feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' ' 
