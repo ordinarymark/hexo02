@@ -1,7 +1,7 @@
 ---
 title: Ideas for posts
 date: 2019-07-28 05:53:09
-tags:
+tags: [ideas]
 ---
 Thoughts on possible initial posts until I can decide what to do with this long term!!!
 
