@@ -6,6 +6,7 @@ tags: [hexo]
 When looking at the instructions on how to install some of the themes for Hexo that can be found at [https://hexo.io/themes/](https://hexo.io/themes/) the one's I've tried to install so far have instructions telling you to use git clone to download them into a sub folder of the themes folder (into a folder that is the name of the theme).
 
 This causes an issue when it comes to then publishing to site to Github as a 'git add .' returns the following warning:
+
 ```
 warning: adding embedded git repository: themes/icarus
 hint: You've added another git repository inside your current repository.
@@ -22,6 +23,7 @@ hint: 	git rm --cached themes/icarus
 hint: 
 hint: See "git help submodule" for more information.
 ```
+
 The problem here is if you do add it as a submodule then it appears that you cannot configure the theme for you own site as the changes need to be made to the main theme repo and not your cloned version!
 The only way I have found around this is to do the following:
 * Run git clone to a folder that is outside of the Hexo folder structure on your local system.
