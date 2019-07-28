@@ -27,7 +27,7 @@ The only way I have found around this is to do the following:
 * Run git clone to a folder that is outside of the Hexo folder structure on your local system.
 * manually create the folder for the theme in Hexo's themes folder
 * copy all content from the cloned folder to the manually created folder EXCEPT the .git and .github folders.
-* 
+ 
 Another issue I have come across with one theme was that in the .gitignore file for the theme there was an entry for the theme's _config.yml file and this was causing the deployment to Netlify to fail (this would run fine locally using http://localhost:4000/ but gave the error 'failed during stage 'building site': Deploy directory 'public/' does not exist'). From what I can tell this was due to the fact that Netlify was trying to create it's own _config.yml file which I'm guess was missing most of the config needed for the theme to work.
 
 Had to edit the .gitignore file and remove that entry for the deployment to work.
