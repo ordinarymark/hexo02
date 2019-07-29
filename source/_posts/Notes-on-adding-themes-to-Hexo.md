@@ -5,7 +5,7 @@ tags: [hexo]
 ---
 When looking at the instructions on how to install some of the themes for Hexo that can be found at [https://hexo.io/themes/](https://hexo.io/themes/) the one's I've tried to install so far have instructions telling you to use git clone to download them into a sub folder of the themes folder (into a folder that is the name of the theme).
 
-This causes an issue when it comes to then publishing to site to Github as a 'git add .' returns the following warning:
+This causes an issue when it comes to then publishing to site to Github as a `git add .` returns the following warning:
 
 ```
 warning: adding embedded git repository: themes/icarus
@@ -30,6 +30,6 @@ The only way I have found around this is to do the following:
 * manually create the folder for the theme in Hexo's themes folder
 * copy all content from the cloned folder to the manually created folder EXCEPT the .git and .github folders.
  
-Another issue I have come across with one theme was that in the .gitignore file for the theme there was an entry for the theme's _config.yml file and this was causing the deployment to Netlify to fail (this would run fine locally using http://localhost:4000/ but gave the error 'failed during stage 'building site': Deploy directory 'public/' does not exist'). From what I can tell this was due to the fact that Netlify was trying to create it's own _config.yml file which I'm guess was missing most of the config needed for the theme to work.
+Another issue I have come across with one theme was that in the .gitignore file for the theme there was an entry for the theme's _config.yml file and this was causing the deployment to Netlify to fail (this would run fine locally using http://localhost:4000/ but gave the error `failed during stage 'building site': Deploy directory 'public/' does not exist`). From what I can tell this was due to the fact that Netlify was trying to create it's own _config.yml file which I'm guess was missing most of the config needed for the theme to work.
 
 Had to edit the .gitignore file and remove that entry for the deployment to work.
