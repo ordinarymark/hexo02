@@ -25,6 +25,7 @@ hint: See "git help submodule" for more information.
 ```
 
 The problem here is if you do add it as a submodule then it appears that you cannot configure the theme for you own site as it appears that the changes need to be made to the main theme repo and not your cloned version! (I might have this wrong but anecdotally this appears to be the case).
+
 The only way I have found around this is to do the following:
 * Run git clone to a folder that is outside of the Hexo folder structure on your local system.
 * manually create the folder for the theme in Hexo's themes folder
