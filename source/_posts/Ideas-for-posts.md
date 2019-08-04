@@ -9,3 +9,4 @@ Thoughts on possible initial posts until I can decide what to do with this long 
 * Installing Docker on Ubuntu
 * Configuring Docker to start automatically
 * Adding user to Docker group to avoid having to use Sudo
+* Cheatsheats (Docker, OC, Emmet etc.)
