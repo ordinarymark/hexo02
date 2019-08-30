@@ -1,7 +1,9 @@
 ---
 title: Certification Ideas
 tags: ideas
+date: 2019-08-30 01:09:21
 ---
+
 The following are possibities for Linux orientated training courses relevant to the job I am currently doing:
 
 Preferred:
