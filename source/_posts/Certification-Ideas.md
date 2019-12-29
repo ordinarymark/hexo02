@@ -18,6 +18,8 @@ Docker Certified Associate (DCA) – https://success.docker.com/certification
 
 Red Hat Certified Specialist in Ansible Automation – https://www.redhat.com/en/services/certification/rhcs-ansible-automation
 
+Red Hat Certified Specialist in Ceph Storage Administration - https://www.redhat.com/en/services/certification/red-hat-certified-specialist-in-ceph-storage-administration
+
 Certified OpenStack Administrator – https://www.openstack.org/coa/
 
 Cloud Provider based:
