@@ -19,5 +19,5 @@ Set up global Git variables - https://help.ubuntu.com/lts/serverguide/git.html#g
 
 Install VS Code - https://code.visualstudio.com/docs/setup/linux
 
-More Details (The full version):
+More Details (The full version):  
 ...
