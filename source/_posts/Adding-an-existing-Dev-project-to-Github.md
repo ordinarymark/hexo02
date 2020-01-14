@@ -1,5 +1,6 @@
 ---
 title: Adding an existing Dev project to Github
+thumbnail: /gallery/Github_Case_Study_Header_New.jpg
 date: 2020-01-14 05:03:29
 tags: [howto]
 ---
