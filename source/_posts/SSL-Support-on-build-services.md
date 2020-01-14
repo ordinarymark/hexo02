@@ -1,5 +1,6 @@
 ---
 title: SSL Support on build services
+thumbnail: /gallery/shutterstock_616904339.jpg
 date: 2020-01-014 01:13:37
 tags: [ideas]
 ---
