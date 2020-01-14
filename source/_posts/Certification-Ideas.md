@@ -1,5 +1,6 @@
 ---
 title: Certification Ideas
+thumbnail: /gallery/PreparefortheDockerCertifiedAssociateDCACertification_1200x630-1538599450616.jpg
 tags: ideas
 date: 2019-08-30 01:09:21
 ---
