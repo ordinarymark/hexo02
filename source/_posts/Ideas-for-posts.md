@@ -1,5 +1,6 @@
 ---
 title: Ideas for posts
+thumbnail: /gallery/sbcfl-bulb-sbcfl-bulb-13-watt-3-way-sbcfl-bulb-sbcfl-bulb-home-depot.jpg
 date: 2019-07-28 05:53:09
 tags: [ideas]
 ---
