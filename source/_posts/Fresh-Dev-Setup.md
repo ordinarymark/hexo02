@@ -1,5 +1,6 @@
 ---
 title: Fresh Dev Setup
+thumbnail: /gallery/maxresdefault.jpg
 date: 2020-01-04 16:22:09
 tags: [howto]
 ---
