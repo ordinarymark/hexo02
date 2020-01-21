@@ -2,7 +2,7 @@
 title: Thoughts on Ghost Blog installs
 thumbnail: /gallery/201807_ghost-cms.jpg
 date: 2020-01-21 21:57:21
-tags: [ideas]
+tags: [ideas] [howto]
 ---
 Thoughts on a suitable, repeatable process for installing Ghost Blog on a server, directly and not via Docker
 
