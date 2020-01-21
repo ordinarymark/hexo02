@@ -8,7 +8,7 @@ tags:
 ---
 Thoughts on a suitable, repeatable process for installing Ghost Blog on a server, directly and not via Docker
 
-The reason for this thought is having gone through the article at https://www.howtoforge.com/tutorial/docker-guide-deploying-ghost-blog-with-mysql-and-traefik-with-docker/ and while this was an interesting exercise, it left some of the links in the blog directing to the internal IP address of the docker container which of course not be suitable for a production site.
+The reason for this thought is having gone through the article at https://www.howtoforge.com/tutorial/docker-guide-deploying-ghost-blog-with-mysql-and-traefik-with-docker/ and while this was an interesting exercise, it left some of the links in the blog directing to the internal IP address of the docker container which of course would not be suitable for a production site.
 
 Possible Steps:
 1. Install Node via Nodesource
