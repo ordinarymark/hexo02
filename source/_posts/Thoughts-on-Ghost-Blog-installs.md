@@ -13,7 +13,7 @@ The reason for this thought is having gone through the article at https://www.ho
 Possible Steps:
 1. Install Node via Nodesource
 2. Install Ghost CLI via NPM (after updating NPM if needed)
-3. Install Nginx to act as a Reverse Proxy and HTTPS termination point for a Let's Encrypt SSL cert
+3. Install and configure Nginx to act as a Reverse Proxy and HTTPS termination point for a Let's Encrypt SSL cert
 4. Install MySQL or simply use another MySQL server elsewhere
 
 ...
