@@ -16,4 +16,10 @@ Possible Steps:
 3. Install and configure Nginx to act as a Reverse Proxy and HTTPS termination point for a Let's Encrypt SSL cert
 4. Install MySQL or simply use another MySQL server elsewhere
 
+#### Update
+
+OK, Have been able to resolve the issue with some of the URL's appearing as https://localhost:2368/. This was achieved by adding the `url` environment variable to the Ghost section of the docker-compose file(eg. `url: https://blah.com`). Also found that I had to change the image tag for Traefik from `traefik:latest` to `traefik:1.7` as the latest version of Traefik is now a 2.x version and this process was designed using Traefik 1.x (guess there is a difference with how each version is configured :-( ) but there isn't a Docker image for 1.x hence having to use the tag from the latest 1.x version with is currently 1.7!
+
+Still want to look at a direct install process for comparison.
+
 ...
