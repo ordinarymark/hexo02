@@ -7,7 +7,7 @@ When looking at the instructions on how to install some of the themes for Hexo t
 
 This causes an issue when it comes to then publishing to site to Github as a `git add .` returns the following warning:
 
-{% codeblock %}
+{% codeblock line_number:false %}
 warning: adding embedded git repository: themes/icarus
 hint: You've added another git repository inside your current repository.
 hint: Clones of the outer repository will not contain the contents of
