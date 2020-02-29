@@ -7,7 +7,7 @@ When looking at the instructions on how to install some of the themes for Hexo t
 
 This causes an issue when it comes to then publishing to site to Github as a `git add .` returns the following warning:
 
-```
+{% codeblock %}
 warning: adding embedded git repository: themes/icarus
 hint: You've added another git repository inside your current repository.
 hint: Clones of the outer repository will not contain the contents of
@@ -22,7 +22,7 @@ hint:
 hint: 	git rm --cached themes/icarus
 hint: 
 hint: See "git help submodule" for more information.
-```
+{% endcodeblock %}
 
 The problem here is if you do add it as a submodule then it appears that you cannot configure the theme for you own site as it appears that the changes need to be made to the main theme repo and not your cloned version! (I might have this wrong but anecdotally this appears to be the case).
 
